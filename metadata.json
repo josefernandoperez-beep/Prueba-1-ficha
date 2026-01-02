@@ -1,0 +1,5 @@
+{
+  "name": "Gestor de Trayectoria Estudiantil",
+  "description": "Una aplicación avanzada para la gestión de fichas de trayectoria escolar de 1° a 5° año, con integración de IA para procesamiento de datos en lenguaje natural.",
+  "requestFramePermissions": []
+}
