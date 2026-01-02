@@ -3,7 +3,7 @@ import { GoogleGenAI, Type } from "@google/genai";
 import { Student } from "../types";
 import { YEAR_SUBJECTS_CONFIG } from "../constants";
 
-const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 const SYSTEM_INSTRUCTION = `
 Actúas como un experto desarrollador de aplicaciones de gestión escolar. 
